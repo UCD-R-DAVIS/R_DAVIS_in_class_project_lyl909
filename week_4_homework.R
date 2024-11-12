@@ -156,6 +156,8 @@ surveys_avg_weight <- surveys %>% #create surveys_avg_weight tibble
   select(species_id,sex,weight,aveg_weight)
 surveys_avg_weight
 
+#how would we make mini sammary table
+
 ## A tibble: 32,283 × 4
 ## Groups:   species_id, sex [64]
 #species_id sex   weight aveg_weight

@@ -59,6 +59,10 @@ str(gender)
 
 #create a second data frame "challenge_base" that only consists of individuals from surveys_base data frame with weight > 150g
 str(surveys_base) # test the original database
+surveys_base[surveys_base[ ,2] > 150, ]
+summary(challenge_base)            
+             
+             
 challenge_base <- surveys_base[surveys_base$weight > 150,] #set up the greater  
 challenge_base
 summary(challenge_base)

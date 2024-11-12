@@ -48,6 +48,8 @@ gapminder_five_countries <- gapminder %>%
   geom_boxplot()+geom_jitter(alpha = 0.5, color = "blue") +
   labs(title = "Life Expectancy of Five Countries", x= "country", y="Life Expenctancy" ) +
   theme_bw()
+
 gapminder_five_countries    
+
 
 
